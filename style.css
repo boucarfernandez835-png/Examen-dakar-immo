@@ -7,6 +7,7 @@
 body {
     overflow-x: hidden;
     background-color: #F8FAFC;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .contentmenu {
@@ -478,12 +479,15 @@ footer {
 }
 h3 {
     color: #1E3A8A;
+    font-family: Montserrat, Arial, sans-serif;
 }
 h4 {
     color: #1E3A8A;
+    font-family: Montserrat, Arial, sans-serif;
 }
 h2 {
     color: #1E3A8A;
+    font-family: Montserrat, Arial, sans-serif;
 }
 @media (max-width: 820px) {
     .contentmenu {
@@ -709,8 +713,8 @@ h2 {
         padding: 10px; 
     }
     .CA {
-        margin-left: 0; 
-        padding: 10px;
+        display: flex;
+        flex-direction: column; 
     }
     .D1A {
         margin-left: 0; 
