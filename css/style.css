@@ -22,8 +22,6 @@ body {
     justify-content: center;
     display: flex;
     align-items: center;
-    background-color: #1E3A8A;
-    color: #F59E0B;
     border-radius: 20px;
 }
 .logo img {
@@ -76,7 +74,7 @@ body {
 }
 .b1 {
     padding: 10px;
-    color: #0F172A;
+    color: #FFFFFF;
     background-color: #1E3A8A;
     width: 100%;
     height: 100%;
@@ -117,7 +115,7 @@ body {
     width: 50%;
     height: 80px;
     margin-top: 0;
-    color: #111827;
+    color: #64748B;
 }
 
 .boutton {
@@ -285,6 +283,10 @@ footer {
     align-items: center;
     gap: 10px;
 }
+.M img {
+    width: 100%;
+    height: 100%;
+}
 .fernandez {
     width: 100%;
     height: 20px;
@@ -354,11 +356,12 @@ footer {
 .prix {
     width: 95%;
     height: 30px;
-    color: #0F172A;
+    color: #F59E0B;
     justify-content: center;
     text-align: center;
     display: flex;
     align-items: center;
+    font-size: 25px;
 }
 .bouton {
     width: 90%;
@@ -372,7 +375,7 @@ footer {
 
 .contentServices {
     width: 95%;
-    height: 350px;
+    height: 180px;
     gap: 20px;
     display: flex;
     flex-direction: row;
@@ -383,23 +386,24 @@ footer {
 
 .Services {
     width: 30%;
-    height: 330px;
-    border: 2px solid yellow;
+    height: 50px;
     background-color: #FFFFFF;
 }
 
 .icone {
     width: 80%;
     justify-content: center;
-    height: 180px;
-    border: 2px solid navy;
+    height: 30px;
     margin-left: 30px;
+}
+.icone i{
+    width: 100%;
+    height: 100%;
 }
 
 .P {
     width: 95%;
-    height: 70px;
-    border: 2px solid sienna;
+    height: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -436,3 +440,293 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.contentContact {
+    width: 95%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.information {
+    width: 40%;
+    height: 200px;
+}
+.formulaire {
+    width: 55%;
+    height: 400px;
+}
+.N {
+    width: 100%;
+    height: 40%;
+    color: #111827;
+}
+.form {
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+.Form {
+    border: 2px solid black;
+    height: 80px;
+}
+.y {
+    height: 10px;
+    color: #1E3A8A;
+}
+h3 {
+    color: #1E3A8A;
+}
+h4 {
+    color: #1E3A8A;
+}
+h2 {
+    color: #1E3A8A;
+}
+@media (max-width: 820px) {
+    .contentmenu {
+        padding: 0 10px;
+    }
+    .logo {
+        width: 35%;
+    }
+    .menu {
+        width: 60%;
+    }
+    .A a {
+        font-size: 16px;
+    }
+
+    .hero {
+        height: 400px;
+    }
+    .titre {
+        width: 90%;
+        font-size: 1.5rem;
+        height: auto;
+    }
+    .paragraphe {
+        width: 80%;
+        height: auto;
+    }
+    .boutton {
+        width: 90%;
+    }
+
+    .contentImmo {
+        flex-direction: column;
+        height: auto;
+        margin-left: 0;
+        width: 100%;
+        align-items: center;
+    }
+    .Immo {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .contentServices {
+        flex-wrap: wrap;
+        height: auto;
+        margin-left: 0;
+        width: 100%;
+    }
+    .Services {
+        width: 45%;
+        margin-bottom: 15px;
+    }
+
+    .CA {
+        flex-wrap: wrap;
+        height: auto;
+        margin-left: 0;
+    }
+    .CA1 {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .D1A {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .d {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .contentPropos {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .contentboucar {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .Propos {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .boucar {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .contentContact {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .information {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .formulaire {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .form {
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+    }
+    .Z {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .M {
+        width: 60%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .menufooter {
+        width: 100%;
+        align-items: center;
+    }
+}
+@media (max-width: 465px) {
+    .contentmenu {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .logo { 
+        width: 70%; 
+        height: 80px; 
+    }
+    .menu { 
+        width: 100%; 
+        height: auto; 
+        padding: 10px; 
+    }
+    .A a { 
+        font-size: 14px; 
+    }
+
+    .titre { 
+        font-size: 1.2rem; 
+        width: 100%; 
+    }
+    .paragraphe { 
+        width: 100%; 
+        font-size: 0.9rem; 
+    }
+    .boutton { 
+        flex-direction: column; 
+        height: auto; width: 100%; 
+    }
+    .B1 { 
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+    .B2 {
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+    .BA1 {
+        font-size: 0.9rem;
+        height: 50px;
+    }
+    .BA2 {
+        margin-top: 20px;
+    }
+    .C {
+        height: auto; 
+        width: 100%;
+    }
+    .D {
+        height: auto; 
+        width: 100%;
+        padding: 20px 0;
+    }
+    .M {
+        width: 80%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .Immo { 
+        width: 100%; 
+        margin-left: 0; 
+    }
+    .Services {
+        width: 100%; 
+        margin-left: 0;
+        height: auto;
+    }
+    .CA1 {
+        width: 100%; 
+        margin-left: 0;
+    }
+    .d {
+        width: 100%; 
+        margin-left: 0;
+    }
+    .Propos {
+        width: 100%; 
+        margin-left: 0;
+    }
+    .boucar {
+        width: 100%; 
+        margin-left: 0;
+    }
+    .contentImmo {
+        margin-left: 0; 
+        padding: 10px; 
+    }
+    .contentServices {
+        margin-left: 0; 
+        padding: 10px; 
+    }
+    .CA {
+        margin-left: 0; 
+        padding: 10px;
+    }
+    .D1A {
+        margin-left: 0; 
+        padding: 10px;
+    }
+    .form { 
+        width: 100%; 
+    }
+    .Form { 
+        height: 60px; 
+    }
+    .N {
+        width: 100%;
+        height: auto; 
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}
+    
