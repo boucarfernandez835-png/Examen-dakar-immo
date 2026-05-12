@@ -14,16 +14,20 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #FFFFFF;
+    width: 100%;
+    height: 130px;
 }
 
 .logo {
     width: 25%;
     height: 100px;
-    gap: 20px;
     justify-content: center;
     display: flex;
     align-items: center;
     border-radius: 20px;
+    font-size: 10px;
+    color: #1E3A8A;
+    flex-direction: column;
 }
 .logo img {
     width: 100%;
@@ -86,7 +90,16 @@ body {
     font-size: 1.2rem;
     border-radius: 20px;
 }
-
+.b1 a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.b2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
 .hero {
     background: url("background\ hero.jpeg") center/cover no-repeat;
     width: 100%;
@@ -288,6 +301,9 @@ footer {
     width: 100%;
     height: 100%;
 }
+.M i {
+    font-size: 30px;
+}
 .fernandez {
     width: 100%;
     height: 20px;
@@ -376,7 +392,7 @@ footer {
 
 .contentServices {
     width: 95%;
-    height: 180px;
+    height: 200px;
     gap: 20px;
     display: flex;
     flex-direction: row;
@@ -387,7 +403,7 @@ footer {
 
 .Services {
     width: 30%;
-    height: 50px;
+    height: 180px;
     background-color: #FFFFFF;
 }
 
@@ -400,6 +416,7 @@ footer {
 .icone i{
     width: 100%;
     height: 100%;
+    font-size: 35px;
 }
 
 .P {
