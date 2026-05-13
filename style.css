@@ -46,8 +46,7 @@ body {
     width: 40%;
     height: 70px;
     gap: 15px;
-    display: flex;
-    justify-content: space-around;
+    
     flex-direction: column;
 }
 
@@ -102,6 +101,8 @@ body {
 }
 .hero {
     background: url("background\ hero.jpeg") center/cover no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(61, 57, 57, 0.89);
     width: 100%;
     height: 500px;
     display: flex;
@@ -334,6 +335,24 @@ footer {
     align-items: center;
 }
 
+.Immo2 {
+    width: 30%;
+    height: 560px;
+    background-color: #FFFFFF;
+}
+.contentImmo2 {
+    width: 95%;
+    height: 580px;
+    margin-top: 20px;
+    gap: 20px;
+    flex-direction: row;
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
 .Immo {
     width: 30%;
     height: 560px;
@@ -406,7 +425,22 @@ footer {
     height: 180px;
     background-color: #FFFFFF;
 }
+.contentServices2 {
+    width: 95%;
+    height: 200px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
 
+.Services2 {
+    width: 30%;
+    height: 180px;
+    background-color: #FFFFFF;
+}
 .icone {
     width: 80%;
     justify-content: center;
@@ -505,4 +539,198 @@ h4 {
 h2 {
     color: #1E3A8A;
     font-family: Montserrat, Arial, sans-serif;
+}
+@media (max-width:820px) {
+    .contentmenu {
+        display: flex;
+        flex-wrap: wrap;
+        height: 200px;
+    }
+    .logo{
+        width: 90%;
+        height: 70px;
+    }
+    .menu {
+        width: 90%;
+    }
+    .BA1 {
+        height: 90px;
+    }
+    .contentImmo {
+        display: flex;
+        flex-wrap: wrap;
+        height: 1200px;
+    }
+    .Immo2 {
+        width: 45%;
+    }
+     .contentImmo2 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 1200px;
+    }
+    .Immo {
+        width: 45%;
+    }
+    .contentServices {
+        display: flex;
+        flex-wrap: wrap;
+        height: 350px;
+    }
+    .Services {
+        width: 45%;
+    }
+    .contentServices2 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 400px;
+    }
+    .Services2 {
+        width: 45%;
+    }
+    .contentPropos {
+        flex-wrap: wrap;
+        display: flex;
+        height: 400px;
+    }
+    .Propos {
+        width: 90%;
+        font-size: 20px;
+    }
+    .contentboucar {
+        display: flex;
+        flex-wrap: wrap;
+        height: 200px;
+    }
+    .boucar {
+        width: 90%;
+        font-size: 20px;
+    }
+}
+@media (max-width:465px) {
+    .contentmenu {
+        display: flex;
+        flex-wrap: wrap;
+        height: 180px;
+    }
+    .menu {
+        width: 90%;
+    }
+    .logo {
+        width: 90%;
+    }
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .titre {
+        width: 90%;
+    }
+    .paragraphe {
+        width: 90%;
+    }
+    .boutton {
+        width: 90%;
+    }
+    .B {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .BA1 {
+        width: 90%;
+        height: 70px;
+    }
+    .BA2 {
+        width: 90%;
+        height: 100px;
+    }
+    .C {
+        flex-wrap: wrap;
+        display: flex;
+        height: 900px;
+    }
+    .CA {
+        flex-wrap: wrap;
+        display: flex;
+        height: 800px;
+    }
+    .CA1 {
+        width: 95%;
+    }
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        height: 1200px;
+    }
+    .Z {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .M {
+        width: 90%;
+    }
+    .fernandez {
+        width: 90%;
+        height: 900px;
+    }
+    .contentImmo {
+        flex-wrap: wrap;
+        display: flex;
+        height: 1800px;
+    }
+    .Immo {
+        width: 90%;
+    }
+     .contentImmo2 {
+        flex-wrap: wrap;
+        display: flex;
+        height: 1800px;
+    }
+    .Immo2 {
+        width: 90%;
+    }
+    .contentServices {
+        display: flex;
+        flex-wrap: wrap;
+        height: 700px;
+    }
+    .Services {
+        width: 90%;
+    }
+    .contentServices2 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 700px;
+    }
+    .Services2 {
+        width: 90%;
+    }
+    .contentPropos {
+        display: flex;
+        flex-wrap: wrap;
+        height: 400px;
+    }
+    .Propos {
+        width: 90%;
+        font-size: 15px;
+    }
+    .contentboucar {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .boucar {
+        width: 90%;
+        font-size: 15px;
+    }
+    .contentContact {
+        flex-wrap: wrap;
+        display: flex;
+        height: 850px;
+    }
+    .information {
+        width: 90%;
+    }
+    .formulaire {
+        width: 90%;
+    }
 }
